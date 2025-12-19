@@ -1,16 +1,25 @@
-# React + Vite
+# 🎬 Netflix Clone - React & Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um clone da interface da página inicial da Netflix, desenvolvido para praticar conceitos de **React**, componentização e estilização avançada com **Tailwind CSS**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🚀 Funcionalidades
+* **Interface:** Layout inspirado na experiência original da Netflix.
+* **Componentização:** Divisão clara entre `Nav`, `Hero`, `Lists` (carrosséis) e `Footer`.
+* **Grade de Filmes:** Renderização dinâmica de listas de filmes e séries.
+* **Efeitos Visuais:** Gradientes dinâmicos, efeitos de hover em cards e navegação fixa.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
+* **React:** Biblioteca principal para construção da interface.
+* **Tailwind CSS:** Framework utilitário para estilização rápida e moderna.
+* **Vite:** Ferramenta de build para um desenvolvimento ágil.
+* **HeroIcons:** Para os ícones de busca, notificações e player.
 
-## Expanding the ESLint configuration
+## 📦 Como rodar o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Siga os passos abaixo para executar o projeto em sua máquina local:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/cwlangow/clone-netflix-react.git](https://github.com/cwlangow/clone-netflix-react.git)
